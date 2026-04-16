@@ -206,3 +206,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Env
+.venv/
+
+# Bilder
+*.jpg
+*.jpeg
+*.png
+
+# Modelle
+*.pt
+*.bin
+
+# Outputs
+Hackathon/outputs/
