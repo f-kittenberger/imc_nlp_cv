@@ -7,7 +7,7 @@ from ultralytics import YOLO
 
 
 def main() -> None:
-    project_root = Path(__file__).resolve().parent.parent
+    project_root = Path(__file__).resolve().parent.parent.parent
     input_dir = project_root / "vehicle_subset_OR"
     output_dir = project_root / "outputs" / "crops_OR"
     metadata_path = project_root / "outputs" / "crop_metadata_OR.json"
