@@ -13,7 +13,7 @@ develop-eggs/
 dist/
 downloads/
 annotations/
-OR query version/
+OR_query_version/
 eggs/
 .eggs/
 lib/
